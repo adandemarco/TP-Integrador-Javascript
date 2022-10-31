@@ -1,0 +1,149 @@
+body{
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_nav {
+    padding: 0% 12% 0% 12%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #34393F;
+    color: white;
+}
+
+#lista_nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+
+.logo_codo {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+#codo_a_codo_logo {
+    width: 125px;
+}
+
+#boton_estudiante{
+    height: 185px;
+    width: 290px;
+    background: rgba(255, 255, 255, 0.5);
+    border-color: #53A0F3;
+}
+
+#boton_trainee{
+    height: 185px;
+    width: 290px;
+    background: rgba(255, 255, 255, 0.5);
+    border-color: #A8DCE4;
+}
+
+#boton_junior{
+    height: 185px;
+    width: 290px;
+    background: rgba(255, 255, 255, 0.5);
+    border-color: #F3CC58;
+}
+
+.tipos_descuentos{
+    margin-top: 40px;
+    display: flex;
+    width: 900px;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+
+.oradores_texto_2 {
+    margin-top: 10px;
+    text-align: center;
+    width: 900px;
+    margin-bottom: 100px;
+}
+
+.oradores_texto_2 p {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+#total_a_pagar{
+    background-color: #CCE5FF;
+    color: #346EB6;
+    text-align: left;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+#total_titulo{
+    margin-left: 15px;
+}
+
+.form-row{
+    text-align: left;
+}
+
+.lista_footer {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1B3848;
+    color: white;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.botonera{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#limpiar_campos{
+    background-color: #97C93E;
+}
+#resumen{
+    background-color: #97C93E;
+}
+.boton1y2{
+    width: 430px;   
+}
+
+#inputNombre{
+    width: 410px;
+}
+
+#inputApellido{
+    width: 410px;
+}
+#inputCorreo{
+    width: 865px;
+}
+#inputCantidad{
+    width: 410px;
+}
+#selector_descuentos{
+    width: 410px;
+}
+.para_poner_la_imagen{
+    display: flex;
+    align-items: center;
+}

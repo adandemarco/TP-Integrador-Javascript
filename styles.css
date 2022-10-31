@@ -1,0 +1,211 @@
+.main_nav {
+    padding: 0% 12% 0% 12%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #34393F;
+    color: white;
+}
+
+.logo_codo {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+#codo_a_codo_logo {
+    width: 125px;
+}
+
+#lista_nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+
+.img_back_principal {
+    color: white;
+    height: 800px;
+    background-image: url(../fotos/ba1.jpg);
+    background-size: cover;
+    /* buen dato */
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+#texto_dentro_de_foto {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: right;
+    position: absolute;
+    right: 10%;
+}
+
+.oradores_texto {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.oradores_texto p {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.oradores_texto h1 {
+    font-size: 35px;
+}
+
+.card {
+    height: 575px;
+}
+
+.cartas {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 50px;
+}
+
+.div_central {
+    display: flex;
+}
+
+.div_horizontal {
+    width: 50%;
+    height: 590px;
+    background-image: url(../fotos/honolulu.jpg);
+    background-size: cover;
+    /* buen dato */
+}
+
+.div_horizontal_derecha {
+    width: 50%;
+    height: 590px;
+    background-color: #353A40;
+    color: white;
+    padding: 20px;
+}
+
+#conoce_mas {
+    color: white;
+    background-color: #353A40;
+    border-color: white;
+}
+
+#comprar_tickets {
+    background-color: #39B33D;
+    color: white;
+
+}
+
+#quiero_ser_orador {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.oradores_texto_2 {
+    margin-top: 10px;
+    text-align: center;
+    width: 900px;
+    margin-bottom: 100px;
+}
+
+.oradores_texto_2 p {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.oradores_texto_2 h1 {
+    font-size: 35px;
+}
+
+#env_form {
+    width: 100%;
+    background-color: #96C93E;
+}
+
+#recuerda {
+    color: #BBB5B5;
+    text-align: left;
+    margin: 20px 0px 20px 0px;
+}
+
+.lista_footer {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1B3848;
+    color: white;
+    height: 150px;
+}
+
+.js_rc {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.neg_str {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#js {
+    text-align: center;
+    border-radius: 6px;
+    width: 80px;
+    background-color: #FCC211;
+    margin-bottom: 0px;
+}
+
+#rc {
+    text-align: center;
+    border-radius: 6px;
+    width: 45px;
+    background-color: #12A2B7;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#neg {
+    text-align: center;
+    border-radius: 6px;
+    width: 75px;
+    background-color: #6B757B;
+    margin-bottom: 0px;
+    color: white;
+}
+
+#str {
+    text-align: center;
+    border-radius: 6px;
+    width: 75px;
+    background-color: #DA3140;
+    color: white;
+    margin-bottom: 0px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f73fa8d33c.js" crossorigin="anonymous"></script>
+    <title>Comprar Tickets</title>
+</head>
+<body>
+    <nav class="main_nav">
+        <div class="logo_codo">
+          <img src="fotos/codoacodo.png" alt="Codo a Codo" id="codo_a_codo_logo">
+          <p>Conf Bs As</p>
+        </div>
+  
+        <ul id="lista_nav">
+          <li><a href="">La conferencia</a></li>
+          <li><a href="">Los oradores</a></li>
+          <li><a href="">El lugar y la fecha</a></li>
+          <li><a href="">Conviertete en orador</a></li>
+          <li><a href="">Comprar tickets</a></li>
+        </ul>
+      </nav>
+
+      <div class="contenedor">
+        <div class="tipos_descuentos">
+          <div class="estudiante">
+            <button id="boton_estudiante">
+              <p>Estudiante</p>
+              <p>Tienen un descuento</p>
+              <p>80%</p>
+              <p>* presentar documentación</p>
+            </button>
+          </div>
+          <div class="trainee">
+            <button id="boton_trainee">
+              <p>Trainee</p>
+              <p>Tienen un descuento</p>
+              <p>50%</p>
+              <p>* presentar documentación</p>
+            </button>
+          </div>
+          <div class="junior">
+            <button id="boton_junior">
+              <p>Junior</p>
+              <p>Tienen un descuento</p>
+              <p>15%</p>
+              <p>* presentar documentación</p>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="formulario">
+          <div class="oradores_texto_2">
+            <p>VENTA</p><h1>VALOR DE TICKET $200</h1>
+            <form id="formulario">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <div class = "para_poner_la_imagen"><input type="text" class="form-control" id="inputNombre" placeholder="Nombre"> <i id="nombre_error"></i></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <div class = "para_poner_la_imagen"><input type="text" class="form-control" id="inputApellido" placeholder="Apellido"> <i id="apellido_error"></i></div>
+                </div>
+              </div>
+    
+              <div class="form-group" id = "formCorreo">
+                <div class = "para_poner_la_imagen"><input type="textarea" class="form-control" id="inputCorreo" placeholder="Correo"> <i id="correo_error"></i></div>
+                
+                <!-- <textarea class="form-control" id="hablar" rows="3" placeholder="Sobre qué quieres hablar?"></textarea> -->
+                <!-- <textarea type="text" class="form-control" id="inputAddress" placeholder="1234 Main St"> -->
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-6" id = "formCantidad">
+                  <label for="input_cantidad">Cantidad</label>
+                  <div class = "para_poner_la_imagen"><input type="number" class="form-control" id="inputCantidad" placeholder="Cantidad"> <i id="cantidad_error"></i></div>
+                  
+                </div>
+
+                <div class="form-group col-md-6" id = "formCategoria">
+                  <label for="selector_descuentos">Categoria</label>
+                    <select class="form-control" id="selector_descuentos">
+                      <option value="0" selectert>-- Seleccione --</option>
+                      <option value="1">Estudiante</option>
+                      <option value="2">Trainee</option>
+                      <option value="3">junior</option>
+                    </select>
+                </div>
+
+              </div>
+              <div id="total_a_pagar"><p id="total_titulo">Total a Pagar: $</p><p id="total_precio"></p></div>
+
+            </form>
+
+            <div class="botonera">
+              <button class="btn btn-primary boton1y2" id="limpiar_campos" onclick="limpiar()">Borrar</button>
+              <button class="btn btn-primary boton1y2" id="resumen" onclick="descuentazos()">Resumen</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <footer>
+        <ul class="lista_footer">
+          <li><a href="">Preguntas Frecuentes</a></li>
+          <li><a href="">Contáctanos</a></li>
+          <li><a href="">Prensa</a></li>
+          <li><a href="">Conferencias</a></li>
+          <li><a href="">Términos y condiciones</a></li>
+          <li><a href="">Privacidad</a></li>
+          <li><a href="">Estudiantes</a></li>
+        </ul>
+    </footer>
+
+<script src="./scripts.js"></script>
+</body>
+</html>
