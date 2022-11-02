@@ -60,7 +60,6 @@ function comprobar_campos(){
         console.log("La cantidad ingresada no es válido");
         cantidad = cantidad * (-1);
         document.getElementById('inputCantidad').value=cantidad;
-        document.getElementById('cantidad_error').classList.add('fa-solid', 'fa-circle-info');
     }
 }
 
