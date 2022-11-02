@@ -40,7 +40,6 @@ function comprobar_campos(){
     document.getElementById('nombre_error').classList.remove('fa-solid', 'fa-circle-info');
     document.getElementById('apellido_error').classList.remove('fa-solid', 'fa-circle-info');
     document.getElementById('correo_error').classList.remove('fa-solid', 'fa-circle-info');
-    document.getElementById('cantidad_error').classList.remove('fa-solid', 'fa-circle-info');
 
     if (nombre.length < 3 || nombre.length > 15){
         console.log("El nombre ingresado no es válido");
