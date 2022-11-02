@@ -28,7 +28,7 @@
 .img_back_principal {
     color: white;
     height: 800px;
-    background-image: url(fotos/ba1.jpg);
+    background-image: url(./fotos/ba1.jpg);
     background-size: cover;
     /* buen dato */
     display: flex;
@@ -78,7 +78,7 @@
 .div_horizontal {
     width: 50%;
     height: 590px;
-    background-image: url(fotos/honolulu.jpg);
+    background-image: url(./fotos/honolulu.jpg);
     background-size: cover;
     /* buen dato */
 }
