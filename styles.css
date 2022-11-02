@@ -6,7 +6,8 @@
     background-color: #34393F;
     color: white;
 }
-
+A:hover { color: white; font-family: arial; text-decoration: none }
+A:visited {color: white;  font-family: arial; text-decoration: none }
 .logo_codo {
     display: flex;
     align-items: center;
