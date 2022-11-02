@@ -1,17 +1,10 @@
-// const selectElement = document.querySelector('.descuentazos');
-
-// selectElement.addEventListener('change', (event) => {
-//   const result = document.querySelector('.result');
-//   console.log(result);
-// });
-
 function descuentazos(){
     let opcion = document.getElementById("selector_descuentos").value;
-    let cantidad = document.getElementById("inputCantidad").value;
     let total;
     let total_entradas;
 
     comprobar_campos();
+    let cantidad = document.getElementById("inputCantidad").value;
 
     if (opcion == 1){
         total_entradas = calcular_cantidad(cantidad);
@@ -65,7 +58,8 @@ function comprobar_campos(){
     }
     if (cantidad < 1){
         console.log("La cantidad ingresada no es válido");
-        document.getElementById('inputCantidad').value="La cantidad de entradas debe ser al menos una.";
+        cantidad = cantidad * (-1);
+        document.getElementById('inputCantidad').value=cantidad;
         document.getElementById('cantidad_error').classList.add('fa-solid', 'fa-circle-info');
     }
 }
